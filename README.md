@@ -4,7 +4,7 @@ Análise em Python da base de vendas de 2021 a 2023, conforme as questões do pr
 
 ## Arquivos
 
-- `analise_vendas.py`: pipeline de análise, ETL e geração de resultados.
+- `Projeto Final Python/analise_vendas.py`: pipeline de análise, ETL e geração de resultados.
 - `Projeto Final Python/vendas.csv`: base de dados original, com separador `;` e codificação UTF-8.
 - `resultado/relatorio_analise_vendas.md`: respostas às questões, decisões de limpeza e conclusões.
 - `resultado/relatorio_analise_vendas.pdf`: versão paginada do relatório, com tabelas e gráficos incorporados.
