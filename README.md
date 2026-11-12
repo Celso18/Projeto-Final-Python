@@ -5,10 +5,10 @@ Análise em Python da base de vendas de 2021 a 2023, conforme as questões do pr
 ## Arquivos
 
 - `analise_vendas.py`: pipeline de análise, ETL e geração de resultados.
-- `vendas.csv`: base de dados original, com separador `;` e codificação UTF-8.
+- `Projeto Final Python/vendas.csv`: base de dados original, com separador `;` e codificação UTF-8.
 - `resultado/relatorio_analise_vendas.md`: respostas às questões, decisões de limpeza e conclusões.
 - `resultado/relatorio_analise_vendas.pdf`: versão paginada do relatório, com tabelas e gráficos incorporados.
-- `resultado/graficos/`: visualizações referenciadas pelo relatório.
+- `resultado/graficos`: visualizações referenciadas pelo relatório.
 
 ## Como executar
 
@@ -19,7 +19,7 @@ python -m pip install pandas matplotlib
 python analise_vendas.py
 ```
 
-O relatório em Markdown, o PDF e os gráficos são gravados em `resultado/`. Para escolher outros caminhos:
+O relatório em Markdown, o PDF e os gráficos são gravados em `resultado`. Para escolher outros caminhos:
 
 ```bash
 python analise_vendas.py --csv caminho/para/vendas.csv --output-dir pasta/de/saida
@@ -27,7 +27,7 @@ python analise_vendas.py --csv caminho/para/vendas.csv --output-dir pasta/de/sai
 
 ## Gráficos gerados
 
-O script cria oito gráficos PNG na pasta `resultado/graficos/`. Eles também são incorporados ao relatório Markdown e ao PDF. Cada gráfico responde a uma parte da análise:
+O script cria oito gráficos PNG na pasta `resultado/graficos`. Eles também são incorporados ao relatório Markdown e ao PDF. Cada gráfico responde a uma parte da análise:
 
 1. **Produtos mais vendidos:** compara os dez produtos com maior quantidade total de unidades vendidas.
 
